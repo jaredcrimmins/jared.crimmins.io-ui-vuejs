@@ -1,0 +1,23 @@
+# Ignore everything in the root of the repo so that files can be explicitly
+# whitelisted.
+/*
+
+# Directories
+!.husky/
+!src/
+
+# Files
+!.babelrc
+!.commitlintrc.json
+!.editorconfig
+!.eslintrc.json
+!.gitignore
+!.prettierrc
+!jest.config.js
+!nuxt.config.js
+!LICENSE
+!package-lock.json
+!package.json
+!README.md
+!stylelint.config.js
+!tsconfig.json
