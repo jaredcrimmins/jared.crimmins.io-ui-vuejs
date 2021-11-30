@@ -1,0 +1,91 @@
+<template>
+  <the-hero />
+</template>
+
+<script lang="ts">
+  import TheHero from '../components/the-hero.vue';
+  import Vue from 'vue';
+
+  export default Vue.extend({
+    components: {
+      TheHero
+    },
+
+    head: {
+      meta: [
+        {
+          name: 'description',
+          content: 'Jared Crimmins\' personal website with links to social media accounts.'
+        }
+      ]
+    }
+  });
+</script>
+
+<style lang="scss">
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+  html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    background-color: #070C1E;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+
+  a {
+    color: rgb(0,100,200);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: rgb(0,80,160);
+  }
+
+  label {
+    display: block;
+  }
+
+  input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-padding: 0.4em 0;
+    padding: 0.4em;
+    margin: 0 0 0.5em 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+
+  input:disabled {
+    color: #ccc;
+  }
+
+  button {
+    color: #333;
+    background-color: #f4f4f4;
+    outline: none;
+  }
+
+  button:disabled {
+    color: #999;
+  }
+
+  button:focus {
+    border-color: #666;
+  }
+
+  button:not(:disabled):active {
+    background-color: #ddd;
+  }
+</style>
+
