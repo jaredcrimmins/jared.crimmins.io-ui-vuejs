@@ -4,6 +4,7 @@
 
 # Directories
 !.husky/
+!script-helpers/
 !src/
 
 # Files
