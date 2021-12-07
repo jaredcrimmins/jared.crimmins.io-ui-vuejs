@@ -1,0 +1,8 @@
+/*
+
+!.nuxt/
+!script-helpers/
+
+!nuxt.config.js
+!package-lock.json
+!package.json

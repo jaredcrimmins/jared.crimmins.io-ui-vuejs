@@ -10,12 +10,14 @@
 # Files
 !.babelrc
 !.commitlintrc.json
+!.dockerignore
 !.editorconfig
 !.eslintrc.json
 !.gitignore
 !.prettierrc
 !jest.config.js
 !nuxt.config.js
+!Dockerfile
 !LICENSE
 !package-lock.json
 !package.json
